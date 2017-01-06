@@ -26,14 +26,11 @@ nhìn vào đoạn js , ta thấy password là phần tử thứ 2 của biến 
 ###  Javascript - Obfuscation 1: http://challenge01.root-me.org/web-client/ch4/ch4.html:
 
 password:`cpasbiendurpassword`
+
 câu này có tăng level lên chút :v như mấy cái trước đầu tiên phải coi source của nó , 
 <img src="http://image.prntscr.com/image/da801b784ee445b6a5e32f11334bf0c0.png">
 
-thoạt nhìn tưởng chuối vì chữ pass to đung đập vào mắt :))! nhưng sai pass là 1 biến để truyền vào lệnh `unescape`
-
-được cái không học js nên chả biết cái lệnh quái quỉ này, sợt gu gồ vào web `w3school` lệnh này có chức năng Mã hóa và giải mã một chuỗi
-
-vào phần ví dụ của lệnh này , thay phần biến str_esc bằng phần pass trong source và nhấn run : có ngay pass :D
+- Thoạt nhìn tưởng chuối vì chữ pass to đung đập vào mắt :))! **nhưng sai** pass là 1 biến để truyền vào lệnh `unescape`.Được cái không học js nên chả biết cái lệnh quái quỉ này, sợt gu gồ liền , vào web `w3school` .Lệnh này có chức năng Mã hóa và giải mã một chuỗi !Vào phần ví dụ của lệnh này , thay phần biến str_esc bằng phần pass trong source và nhấn run : có ngay pass :D
 
 <img src="http://image.prntscr.com/image/551b1f0aab004a2f8c562cc4a5623635.png"> 
 

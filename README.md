@@ -1,2 +1,2 @@
 # root-me.org
-đua đòi
+đua đòi cho bằng người ta!

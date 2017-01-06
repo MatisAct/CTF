@@ -21,4 +21,4 @@ thấy đoạn quan trọng :)) coppy đoạn đó dán vào url
 
 đọc mấy dòng đó , trên url xóa đi đoạn pass.html ! thấy 1 cây thư mục , với nhiều thư mục tìm 1 lúc thấy ngay cái pass
 
-<img src="http://challenge01.root-me.org/web-serveur/ch4/admin/backup/admin.txt">
+<img src="http://image.prntscr.com/image/eaa7c9da904843139346c19855272beb.png">

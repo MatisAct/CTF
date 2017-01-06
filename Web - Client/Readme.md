@@ -7,7 +7,7 @@ password:`sh.org`
 
 sau khi vào đoan js : ta thấy luôn password
 
-<img src="http://image.prntscr.com/image/4ee663b4801d4572a4419bd89e1deb92.png">
+<img src="http://image.prntscr.com/image/1689c5870fec47948f3e067b7a302f20.png">
 
 ### Javascript - Source: http://challenge01.root-me.org/web-client/ch1/ch1.html
 

@@ -22,3 +22,11 @@ thấy đoạn quan trọng :)) coppy đoạn đó dán vào url
 đọc mấy dòng đó , trên url xóa đi đoạn pass.html ! thấy 1 cây thư mục , với nhiều thư mục tìm 1 lúc thấy ngay cái pass
 
 <img src="http://image.prntscr.com/image/eaa7c9da904843139346c19855272beb.png">
+
+### SQL injection - authentication:https://www.root-me.org/en/Challenges/Web-Server/SQL-injection-authentication
+pass:`t0_W34k!$`
+bài này mang tính chất ăn hên là nhiều :)) ! gợi ý của đề là, tìm ra pass của admin !
+tham khảo tại http://securityidiots.com/Web-Pentest/SQL-Injection/bypass-login-using-sql-injection.html
+
+bài này chỉ cần nhập , pass và username giống nhau theo dạng! `admin' or 1=1--` , lúc này hiện ra 1 bảng có username và pass , chỉ cần coi source là có pass! 
+<img src="http://image.prntscr.com/image/bb9dcc0ef3844b76b7d939570c6f147e.png">

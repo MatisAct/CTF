@@ -34,4 +34,24 @@ câu này có tăng level lên chút :v như mấy cái trước đầu tiên ph
 
 <img src="http://image.prntscr.com/image/551b1f0aab004a2f8c562cc4a5623635.png"> 
 
+###Javascript - Obfuscation 2:http://challenge01.root-me.org/web-client/ch12/ch12.html
+password:`hDufjdki156` 
+- chú ý phần gợi ý và phần source: gợi ý là : Going down 3 floors..... đi 1 tầng :)) , nhìn vào source thấy đoạn pass! có 3 hàm lồng nhau ! chính nó đấy, chỉ cần giải đoạn đó là có pass!
+
+giải đoạn đầu tiên, hàm `unescape` y chang bài trên , coppy rồi pass vào coi nó ra cái gì
+
+<img src="http://image.prntscr.com/image/bb9c274a2f064338a7118d7f104e8f72.png">
+
+cái hàm `String.fromCharCode` cái này mới , hỏi bác gu gồ thôi :
+
+`String.fromCharCode` : fromCharCode(): chuyễn mã Unicode thành ký tự
+
+ví dụ:
+
+document.write(String.fromCharCode(72,69,76,76,79) );//HELLO
+
+ở bài này , chỉ cần thay vào là ra pass thôi :D! 
+
+<img src="http://image.prntscr.com/image/fd226593f9c345f183bf3ec77361f3ab.png">
+
 

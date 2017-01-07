@@ -28,5 +28,5 @@ pass:`t0_W34k!$`
 bài này mang tính chất ăn hên là nhiều :)) ! gợi ý của đề là, tìm ra pass của admin !
 tham khảo tại http://securityidiots.com/Web-Pentest/SQL-Injection/bypass-login-using-sql-injection.html
 
-bài này chỉ cần nhập , pass và username giống nhau theo dạng! `admin' or 1=1--` , lúc này hiện ra 1 bảng có username và pass , chỉ cần coi source là có pass! 
+bài này chỉ cần nhập , pass và username giống nhau theo dạng! `admin' or 1=0--` , lúc này hiện ra 1 bảng có username và pass , chỉ cần coi source là có pass! 
 <img src="http://image.prntscr.com/image/bb9dcc0ef3844b76b7d939570c6f147e.png">

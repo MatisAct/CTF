@@ -23,3 +23,19 @@ giờ thêm file đó vào cuối đoạn url là có password!
 <img src ="http://image.prntscr.com/image/0dcb6edbda1a4388a4963fcc55608bf7.png">
 
 
+###Javascript Mission 3:https://www.hackthissite.org/missions/javascript/3/
+password:`xxxxxxxxxxxxxx`
+- hướng giải:nhìn đoạn js, giải toán đơn thuần tìm ra moo=14 , chú ý hàm x.length đếm số kí tự của x , nếu nó =moo thì win
+
+```
+function check(x)
+{
+        if (x.length == moo)
+        {
+                        alert("win!");
+                        window.location += "?lvl_password="+x;
+        } else {
+                        alert("fail D:");
+	 }
+}
+```

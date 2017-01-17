@@ -16,3 +16,10 @@ giờ thêm file đó vào cuối đoạn url là có password!
 
 <img src="http://image.prntscr.com/image/026603d4c5824a1298062ab58967e9b6.png">
 
+###Javascript Mission 1:https://www.hackthissite.org/missions/javascript/1/?lvl_password=cookies
+
+- password: `cookies`
+- chú ý đoạn js là được : cách hoạt động đoạn js nếu x=cookie thì win , nếu khác thì sai
+<img src ="http://image.prntscr.com/image/0dcb6edbda1a4388a4963fcc55608bf7.png">
+
+

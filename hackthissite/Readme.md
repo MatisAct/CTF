@@ -39,3 +39,18 @@ function check(x)
 	 }
 }
 ```
+###Javascript Mission 5:https://www.hackthissite.org/missions/javascript/5/
+pasword:`ilovemoo`
+
+<img src="http://image.prntscr.com/image/24bb75329f0a407a8bc68bf9962f44e5.png">
+
+đoạn code:
+```
+<Script>
+
+document.write(unescape('%69%6C%6F%76%65%6D%6F%6F'));
+
+</Script>
+```
+- kết quả:ilovemoo
+

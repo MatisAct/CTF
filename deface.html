@@ -1,0 +1,577 @@
+<META NAME="ROBOTS" CONTENT="INDEX, NOFOLLOW">
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Checker by CrtZ</title>
+    <link rel="shortcut icon"http://blogs-images.forbes.com/parmyolson/files/2012/08/anonymous_logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="Author" content="Trixtr"/>
+    <meta name="copyright" content="Trixtr"/>
+    <meta name="description" content="POWN3D"/>
+    <link href='http://fonts.googleapis.com/css?family=Iceland:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Iceland:400,700' rel='stylesheet' type='text/css'>
+    <meta property="og:image" content="">
+    
+    	
+        <style type="text/css">
+            body {
+                overflow:hidden;
+                background-image:url('https://k60.kn3.net/taringa/9/2/D/7/7/6/PainKiller44/5A4.jpg');
+                background-color: #000000;
+                background-repeat:no-repeat;
+                background-size: 100% ;
+                background-position:top center;
+                margin: 0px;
+                cursor:none;
+                font-family: Iceland, sans-serif;
+            }
+            a{
+                text-decoration: none;
+            }
+           
+            h2{
+            font-family: Iceland, sans-serif;
+            font-size:60px;
+            color:#00ffec;
+            margin: 0px;
+            text-shadow: 0 0 3px #000;
+           
+            }
+            p{
+            color:#fff;
+            font-size:25px;
+            margin: 0px;
+            text-shadow: 0px 0px 11px #fff;
+
+            }
+            .fot{
+            font-family: Iceland, sans-serif;
+            font-size:14px;
+            color:#fff;
+            margin: 0px;
+            text-shadow: 0 0 3px #000, 0px 0px 5px #000;
+            }
+             h1{
+            font-size:100px;
+            color:#fff;
+            text-shadow: 0 0 3px #00fdf6;
+            text-shadow: 0px 0px 11px ;
+
+        }
+        .greets{
+    font-family: Arial, sans-serif;
+    line-height: 24px;
+    font-size: 12px;
+    width: 25%;
+    opacity: 0.9;
+    text-transform: uppercase;
+   
+}
+        </style>
+    </head>
+    <div id="I301_html">
+
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+
+<script type="text/javascript">setTimeout("$('#loading').fadeOut(10000);", 10000);  </script>
+
+<style type="text/css">#loading{position:fixed;top:0;left:0;padding-top:0px;background-color:#000;width:100%;height:100%;color:green;z-index:9000;overflow:hidden;}</style>
+<div id="loading">
+<body onload="document.f.p.focus()" topmargin="0" leftmargin="0" bgcolor="#000000" marginheight="0" marginwidth="0">
+<table border="0" cellpadding="2" cellspacing="0" width="100%">
+<tbody><tr>
+
+
+</tr>
+   
+<tr>
+
+
+
+</tr>
+</tbody></table>
+<font id="ResponseData" color="#ff99cc">
+<pre><script type="text/javascript">
+TypingText = function(element, interval, cursor, finishedCallback) {
+  if((typeof document.getElementById == "undefined") || (typeof element.innerHTML == "undefined")) {
+    this.running = true;    // Never run.
+    return;
+  }
+  this.element = element;
+  this.finishedCallback = (finishedCallback ? finishedCallback : function() { return; });
+  this.interval = (typeof interval == "undefined" ? 200 : interval);
+  this.origText = this.element.innerHTML;
+  this.unparsedOrigText = this.origText;
+  this.cursor = (cursor ? cursor : "");
+  this.currentText = "";
+  this.currentChar =0;
+  this.element.typingText = this;
+  if(this.element.id == "") this.element.id = "typingtext" + TypingText.currentIndex++;
+  TypingText.all.push(this);
+  this.running = false;
+  this.inTag = false;
+  this.tagBuffer = "";
+  this.inHTMLEntity = false;
+  this.HTMLEntityBuffer = "";
+}
+TypingText.all = new Array();
+TypingText.currentIndex = 0;
+TypingText.runAll = function() {
+  for(var i = 0; i < TypingText.all.length; i++) TypingText.all[i].run();
+}
+TypingText.prototype.run = function() {
+  if(this.running) return;
+  if(typeof this.origText == "undefined") {
+    setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);    // We haven't finished loading yet.  Have patience.
+    return;
+  }
+  if(this.currentText == "") this.element.innerHTML = "";
+//  this.origText = this.origText.replace(/<([^<])*>/, "");     // Strip HTML from text.
+  if(this.currentChar < this.origText.length) {
+    if(this.origText.charAt(this.currentChar) == "<" && !this.inTag) {
+      this.tagBuffer = "<";
+      this.inTag = true;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == ">" && this.inTag) {
+      this.tagBuffer += ">";
+      this.inTag = false;
+      this.currentText += this.tagBuffer;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.inTag) {
+      this.tagBuffer += this.origText.charAt(this.currentChar);
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == "&" && !this.inHTMLEntity) {
+      this.HTMLEntityBuffer = "&";
+      this.inHTMLEntity = true;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.origText.charAt(this.currentChar) == ";" && this.inHTMLEntity) {
+      this.HTMLEntityBuffer += ";";
+      this.inHTMLEntity = false;
+      this.currentText += this.HTMLEntityBuffer;
+      this.currentChar++;
+      this.run();
+      return;
+    } else if(this.inHTMLEntity) {
+      this.HTMLEntityBuffer += this.origText.charAt(this.currentChar);
+      this.currentChar++;
+      this.run();
+      return;
+    } else {
+      this.currentText += this.origText.charAt(this.currentChar);
+    }
+    this.element.innerHTML = this.currentText;
+    this.element.innerHTML += (this.currentChar < this.origText.length - 1 ? (typeof this.cursor == "function" ? this.cursor(this.currentText) : this.cursor) : "");
+    this.currentChar++;
+    setTimeout("document.getElementById('" + this.element.id + "').typingText.run()", this.interval);
+  } else {
+    this.currentText = "";
+    this.currentChar = 0;
+        this.running = false;
+        this.finishedCallback();
+  }
+}
+</script>
+<script>
+function disableselect(e){return false}
+
+function reEnable(){return true}
+
+//if IE4+
+document.onselectstart=new Function ("return false")
+
+//if NS6
+if (window.sidebar){
+document.onmousedown=disableselect
+document.onclick=reEnable
+}
+</script>
+<script>
+var message="";
+function clickIE()
+
+{if (document.all)
+{(message);return false;}}
+
+function clickNS(e) {
+if
+(document.layers||(document.getElementById&&!document.all))
+{
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers)
+{document.captureEvents(Event.MOUSEDOWN);document.  onmousedown=clickNS;}
+else
+{document.onmouseup=clickNS;document.oncontextmenu  =clickIE;}
+
+document.oncontextmenu=new Function("return false")
+</script>
+
+<table style=" background-repeat: no-repeat;"  align="right" border="0" width="100%" >
+
+<br>
+
+<tbody><tr>
+<td  valign="top"><p id="RUN" >
+
+<br/>
+<br>
+<font color="DARKRED"> &nbsp;&nbsp;&nbsp;&nbsp;<b> >CrtZ WAS HERE....</font> <br>
+<font color="BLACK"> &nbsp;&nbsp;&nbsp;&nbsp;<b> >Chúng tôi chỉ kiểm tra bảo mật trang web của bạn....</font> <br>
+<font color="BLACK"> &nbsp;&nbsp;&nbsp;&nbsp;<b> >SCANNING....</font> <br>
+<font color="BLACK"> &nbsp;&nbsp;&nbsp;&nbsp;<b> >Không đụng chạm tới dbs của bạn</font> <br>
+<font color="BLACK"> &nbsp;&nbsp;&nbsp;&nbsp;<b> >done!</font> <br>
+<font color="DARKRED"> &nbsp;&nbsp;&nbsp;&nbsp;<b> >TRUE!</font><br>
+<font color="BLACK"> &nbsp;&nbsp;&nbsp;&nbsp;<b> >LOADING...</font><br>
+                     <font color="00f9cd">
+   
+         
+</p></tr>
+</tbody></table>                 </div>
+<br>
+
+<script type="text/javascript">
+new TypingText(document.getElementById("RUN"),25, function(i){ var ar = new Array("_",""); return " " + ar[i.length % ar.length]; });
+TypingText.runAll();
+
+</script>
+
+    <style>
+      td
+      {4
+        background-color: #000000;
+        font-family: Iceland;
+        font-size:10px;
+        color:#00f9cd;
+        border-color: #000000;
+        border-width:1pt;
+        border-style:solid;
+        border-collapse:collapse;
+        padding:0pt 3pt;
+        vertical-align:top;
+      }
+      table
+      {
+        border-color: #88aace;
+        border-width:0pt 1pt;
+        border-style:dash;
+      }
+      A:Link, A:Visited
+      {
+        color: #88aace;
+      }
+      A.no:Link, A.no:Visited
+      {
+        color: #88aace;
+        text-decoration: none;
+      }
+      A:Hover, A:Visited:Hover , A.no:Hover, A.no:Visited:Hover
+      {
+        color: #88aace;
+        background-color:#2e2e2e;
+        text-decoration:
+        overline underline;
+      }
+      .style1
+      {
+        color: #88aace
+      }
+      .style2
+      {
+        color: 1f1f1f
+      }
+      body
+      {
+        color:white;
+        
+        background-position:right;
+        background-attachment:fixed;
+        </div>
+      }
+    </style>
+       
+</div>
+
+</div>
+
+<body oncontextmenu="return false" onkeydown="return false">
+<center>
+<font color="Black"><font color="red"><font color="Black"><font color="red"><font color="red"><font color="grey"><marquee align="center" scrollamount="5" style="width: 565px;" width="565"><font color="red" size="5"> CrtZ WAS HERE Hi ADMIN :)</script></font></marquee><embed height="1" src="https://www.youtube.com/v/watch?v=ghnOlumqZcY;autoplay=1" type="application/x-shockwave-flash" width="1" wmode="transparent"></embed></font></font></font></font></font></font></div>
+                                </div>
+  
+  </script><script type="text/javascript">
+
+var theinHTML;
+var thelessstr;
+var ascSt=70;
+var ascEnd=100;
+var numoflines = 50;
+var lines = new Array();
+var intervalID = new Array();
+var subIntervalID = new Array();
+var subIntervalID2 = new Array();
+var scH = screen.height-400;
+var scW = screen.width-1000;
+window.onload = createlines;
+// -------------------------------------------------------------------------------------
+// Convert decimal to hex (for the colour)
+var hD="0123456789ABCDEF";
+function d2h(d)
+{
+var h = hD.substr(d&15,1);
+while(d > 15)
+{
+d >>= 4;
+h = hD.substr(d&15,1)+h;
+}
+return h;
+}
+// -------------------------------------------------------------------------------------
+// The line object     
+function line(length, maxlength, chars, speed, x)
+{
+this.length = length;
+this.maxlength = maxlength;
+this.chars = chars;
+this.speed = speed;
+this.x = x;
+}
+// -------------------------------------------------------------------------------------
+// Creates the lines
+function createlines()
+{
+// create the lines as objects as defined above with length, characters, speed, x-value
+for(var eachline = 0; eachline < numoflines; eachline++)
+{
+lines[eachline] = new line(0, Math.round(Math.random()*15+5), String.fromCharCode(Math.round(Math.random()*(ascEnd-ascSt)+ascSt)), Math.round(Math.random()*400+100), eachline*45);
+}
+// write the lines 
+for(var writelines = 0; writelines < numoflines; writelines++)
+{
+var newline = document.createElement("div");
+newline.id = "char" + writelines;
+newline.style.position = "absolute";
+newline.style.top = "5px";
+newline.style.left = lines[writelines].x + "px";    
+var firstchar = document.createElement("div");
+var newcolor = d2h(Math.round(1/(lines[writelines].maxlength+1)*255));
+if(newcolor.length == 1)
+newcolor = "0" + newcolor;
+firstchar.style.color = "#00"+newcolor+"00"
+firstchar.innerHTML = lines[writelines].chars
+newline.appendChild(firstchar);
+document.body.appendChild(newline);
+}
+start();
+}
+// -------------------------------------------------------------------------------------
+// Starts it moving & changing
+function start()
+{
+for(var pickastring = 0; pickastring < numoflines; pickastring++)
+{
+intervalID[pickastring] = setInterval("addchars("+pickastring+")", lines[pickastring].speed);
+}
+}
+// -------------------------------------------------------------------------------------
+// Add random characters to the string (and a line break)
+// and make sure the last one is light
+// once it gets to maxlength start moving down
+function addchars(theline)
+{
+if(lines[theline].length >= lines[theline].maxlength)
+{
+clearInterval(intervalID[theline]);
+subIntervalID[theline] = setInterval("movethestring("+theline+")", lines[theline].speed);
+}
+           else
+           {
+// Get a char (not " or ' or  or it'll get confused)
+myRandomChar = String.fromCharCode(Math.round(Math.random()*(ascEnd-ascSt)+ascSt));
+while(myRandomChar == "'" || myRandomChar == '"' || myRandomChar == "")
+myRandomChar = String.fromCharCode(Math.round(Math.random()*(ascEnd-ascSt)+ascSt));
+// Make a new div for it (so we can change it's colour)
+var newchar = document.createElement("div");
+newchar.innerHTML = myRandomChar;
+document.getElementById("char"+theline).appendChild(newchar);
+// Colour it
+var i;
+for(i = 0; i <= lines[theline].length; i++)
+{
+var newcolor = d2h(Math.round((i+1)/(lines[theline].maxlength+1)*255));
+newcolor = "" + newcolor;
+if(newcolor.length == 1)
+newcolor = "0" + newcolor;
+document.getElementById("char"+theline).childNodes[i].style.color = "#00" + newcolor + "00";
+document.getElementById("char"+theline).childNodes[i].style.fontWeight = "normal";
+}
+document.getElementById("char"+theline).childNodes[i].style.color = "#99FF99";
+document.getElementById("char"+theline).childNodes[i].style.fontWeight = "bold";
+// Increase length by one
+lines[theline].length++;
+}
+}
+// -------------------------------------------------------------------------------------
+// Moves the string (creates and destroys chars)
+function movethestring(theline)
+{
+var topstringnum = document.getElementById("char"+theline).offsetTop;
+if((topstringnum + (lines[theline].maxlength * 15)) >= scH)
+{
+clearInterval(subIntervalID[theline]);
+subIntervalID2[theline] = setInterval("clearletters("+theline+")", lines[theline].speed);
+}
+else
+{
+// create
+myRandomChar = String.fromCharCode(Math.round(Math.random()*(ascEnd-ascSt)+ascSt));
+while(myRandomChar=="'" || myRandomChar=='"' || myRandomChar=="")
+myRandomChar = String.fromCharCode(Math.round(Math.random()*(ascEnd-ascSt)+ascSt));
+var newchar = document.createElement("div");
+newchar.innerHTML = myRandomChar;
+document.getElementById("char"+theline).appendChild(newchar);
+// delete
+document.getElementById("char"+theline).removeChild(document.getElementById("char"+theline).childNodes[0]);
+// re-colour
+var i;
+for(i = 0; i < lines[theline].length; i++)
+{
+var newcolor = d2h(Math.round((i+1)/(lines[theline].maxlength+1)*255));
+newcolor = "" + newcolor;
+if(newcolor.length == 1)
+newcolor = "0" + newcolor;
+document.getElementById("char"+theline).childNodes[i].style.color = "#00" + newcolor + "00";
+document.getElementById("char"+theline).childNodes[i].style.fontWeight = "normal";
+}
+document.getElementById("char"+theline).childNodes[i].style.color = "#99FF99";
+document.getElementById("char"+theline).childNodes[i].style.fontWeight = "bold";
+// move
+document.getElementById("char"+theline).style.top = (topstringnum+15) + "px";
+}}
+// -------------------------------------------------------------------------------------
+// pretty much the opposite of addchars()
+function clearletters(theline)
+{
+if(lines[theline].length <= -1)
+{
+clearInterval(subIntervalID2[theline]);
+document.getElementById("char"+theline).style.top = 0;
+intervalID[theline] = setInterval("addchars("+theline+")", lines[theline].speed);
+}
+else
+{
+// Remove the first character
+document.getElementById("char"+theline).removeChild(document.getElementById("char"+theline).childNodes[document.getElementById("char"+theline).childNodes.length-1]);
+// Move it down by 15px
+var topstringnum = document.getElementById("char"+theline).offsetTop;
+document.getElementById("char"+theline).style.top = topstringnum+15 + "px";
+// Decrease length by one
+lines[theline].length--;
+}}
+</script>
+        
+      <h3><img src=http://images.uncyc.org/pt/6/67/Yamazaki-2k2-super.gif width=40><font color=green><marquee width='485' scrollamount='3' align='center'><font size=5 style="color: white">Hệ thống của bạn không an toàn!:)</marquee></font></font><h3>
+
+
+<p><b>
+        </span>
+            <div style="Iceland">
+       
+<div class="green">
+
+<td id=greetz>
+<marquee behavior="scroll" direction="left" scrollamount="4" scrolldelay="55" width="100%">
+<font size="5px" style="Iceland" >
+
+</marquee>
+</td>
+</table></div>
+<div class="fot">
+<script>
+
+function tb5_makeArray(n){ this.length = n; return this.length;
+
+}
+
+tb5_messages = new tb5_makeArray(3);
+
+// P0WN3D //
+
+tb5_messages[0] = "CHECK";
+
+tb5_messages[1] = "YOUR";
+
+tb5_messages[2] = "CrtZ";
+
+tb5_messages[3] = "DEFACE";
+
+tb5_messages[4] = "DONE!";
+
+// -- //
+
+tb5_rptType = 'infinite';
+
+tb5_rptNbr = 10;
+
+tb5_speed = 65;
+
+tb5_delay = 2000;
+
+var tb5_counter=1;
+
+var tb5_currMsg=0;
+
+var tb5_stsmsg="";
+
+function tb5_shuffle(arr){
+
+var k;
+
+for (i=0; i<arr.length; i++){ k = Math.round(Math.random() * (arr.length - i - 1)) + i; temp = arr[i];arr[i]=arr[k];arr[k]=temp;
+
+}
+
+return arr;
+
+}
+
+tb5_arr = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
+
+tb5_sts = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
+
+for (var i=0; i<tb5_messages[tb5_currMsg].length; i++){ tb5_arr[i] = i; tb5_sts[i] = " ";
+
+}
+
+tb5_arr = tb5_shuffle(tb5_arr);
+
+function tb5_init(n){
+
+var k;
+
+if (n == tb5_arr.length){ if (tb5_currMsg == tb5_messages.length-1){ if ((tb5_rptType == 'finite') && (tb5_counter==tb5_rptNbr)){ clearTimeout(tb5_timerID); return; } tb5_counter++; tb5_currMsg=0; } else{ tb5_currMsg++; } n=0; tb5_arr = new tb5_makeArray(tb5_messages[tb5_currMsg].length); tb5_sts = new tb5_makeArray(tb5_messages[tb5_currMsg].length); for (var i=0; i<tb5_messages[tb5_currMsg].length; i++){ tb5_arr[i] = i; tb5_sts[i] = "#"; } tb5_arr = tb5_shuffle(tb5_arr); tb5_sp=tb5_delay;
+
+}
+
+else{ tb5_sp=tb5_speed; k = tb5_arr[n]; tb5_sts[k] = tb5_messages[tb5_currMsg].charAt(k); tb5_stsmsg = ""; for (var i=0; i<tb5_sts.length; i++) tb5_stsmsg += tb5_sts[i]; document.title = tb5_stsmsg; n++; } tb5_timerID = setTimeout("tb5_init("+n+")", tb5_sp);
+
+}
+
+function tb5_randomizetitle(){ tb5_init(0);
+
+}
+
+tb5_randomizetitle();
+
+</script>
+
+</div>
+</center>
+</body>

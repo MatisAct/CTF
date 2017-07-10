@@ -55,3 +55,10 @@ ____/ _|   \__,_|\__|\___|      _|  \___/ _|  \___|\___|  by tuanmerino
         else:
             print'Redirect link: '+ str(a) +" pass: "+str(listpwd[i])+ " True"
 #            sys.exit() 
+
+
+
+*Các bạn cần tùy chỉnh br.select_form(nr=0) khi không có form ,hay br.select_form(nr="name Form")
+*Các bạn chỉnh br["Username"] thành br["id user phù hợp "] tương tự password cũng vậy
+Ở đây mình đã dùng User -agent ngẫu nhiên các bạn có thể thêm proxy nữa vào hihi :3
+*câu lệnh điều kiện "if a ==url:" các bạn có thể sửa để phù hợp với trang web bạn muốn thực hiện

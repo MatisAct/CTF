@@ -27,7 +27,9 @@ if (!$row)
     die('điều quan trọng là anh kia cặp với chị này  ! !  nghĩa là 1 cộng 1 ');
 else
     echo $row['fullname'];
+    // trong dbs phải có 1 giá trị của flag ở id=2
 ?>
 
 </body>
 </html>
+

@@ -1,23 +1,33 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Basic CTF</title>
+    <title>check flag! ! !</title>
+    <meta charset="utf-8">
 </head>
-<body style="background-image:url(https://s-media-cache-ak0.pinimg.com/originals/13/8b/d7/138bd70605e7a638d391eb51f7eae8c0.jpg); background-size:1400px;background-repeat: no-repeat ;background-attachment: fixed;">
-
-
-<h3 style="color: blue;text-align: center;" > người đừng lặng im đến thế , vì lặng im sẽ giết chết con tim</h3>
-<!-- very easy :you can't see it , find it-->
-
+<body>
+<h2>éc éc éc tôi get get bạn</h2>
 
 <?php
-setcookie("flag","very_easy_for_it",time()+600,"/",0);
+    require('ketnoi.php');
 
+    if (isset($_GET['flag']))
+        $flag = $_GET['flag'];
+    else
+        die('looking for now ! !');
 
+    $sql = "SELECT * FROM `member` where id = $flag";
+
+$result = mysqli_query($conn, $sql);
+
+if(!$result) {
+    die('Query error: [' . $link->error . ']');
+}
+$row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+
+if (!$row)
+    die('điều quan trọng là anh kia cặp với chị này  ! !  nghĩa là 1 cộng 1 ');
+else
+    echo $row['fullname'];
 ?>
-
-
-
 
 </body>
 </html>

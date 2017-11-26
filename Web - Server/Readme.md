@@ -30,3 +30,5 @@ tham khảo tại http://securityidiots.com/Web-Pentest/SQL-Injection/bypass-log
 
 bài này chỉ cần nhập , pass và username giống nhau theo dạng! `admin' or 1=0--` , lúc này hiện ra 1 bảng có username và pass , chỉ cần coi source là có pass! 
 <img src="http://image.prntscr.com/image/bb9dcc0ef3844b76b7d939570c6f147e.png">
+
+AUTHELIC : payload ` curl http://challenge01.root-me.org/web-serveur/ch8/ -X PUt` in the git bash

@@ -1,0 +1,9 @@
+txt
+old
+sav
+save
+bk
+rar
+7z
+backup
+bak

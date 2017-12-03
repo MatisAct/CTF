@@ -7,3 +7,4 @@ rar
 7z
 backup
 bak
+.sql 

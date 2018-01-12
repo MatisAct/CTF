@@ -17,6 +17,6 @@ $get="notme"
 echo $get ; // lúc trưa truyền thì in ra notme , khi get=jjjj in ra jjj
 ```
 
- <meta http-equiv="refresh" content="1; url=https://www.w3schools.com/tags/att_meta_http_equiv.asp">
+ meta http-equiv="refresh" content="1; url=https://www.w3schools.com/tags/att_meta_http_equiv.asp">
 
 

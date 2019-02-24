@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE a [
-    <!ENTITY % name SYSTEM "file:///index.php">
-    %name;
-]>
+    <!ENTITY name "nMask">]>
+<foo>
+        <value>&name;</value> 
+</foo>

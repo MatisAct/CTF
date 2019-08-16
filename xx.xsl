@@ -3,7 +3,7 @@
      xmlns:php="http://php.net/xsl" exclude-result-prefixes="php">
  <xsl:template match="/">
 	PHP time()=<xsl:value-of select="php:function('call_user_func', function(){
-    return `ls -al`;
+    return print_r(scandir('.'), true);
 })"/>
   </xsl:template>
 </xsl:stylesheet>

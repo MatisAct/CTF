@@ -51,3 +51,47 @@ void copyStrs(string s, char strs[])
 {
 
 int i=0;
+
+for (i = 0; i < s.length(); i++)
+
+strs[i] = s.at(i);
+
+strs[i] ='\0';
+
+}
+
+void subStrs(char strs[],char newStrs[])
+
+{
+
+int start;
+
+int end;
+
+cout << "Starting point: ";
+
+cin >> start;
+
+cout << "Ending point: ";
+
+cin >> end;
+
+getStrs(start,end,strs,newStrs);
+
+}
+
+void getStrs(int start,int end,char strs[],char newStrs[])
+
+{
+
+int len = end-start+1;
+
+int i=0;
+
+for (i=0; i < len - 1; i++)
+
+newStrs[i] = strs[start + i];
+
+newStrs[i] = '\0';
+
+}
